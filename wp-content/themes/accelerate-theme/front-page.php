@@ -14,9 +14,6 @@
 
 get_header(); ?>
 
-
-
-
 	<div id="primary" class="home-page hero-content">
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
