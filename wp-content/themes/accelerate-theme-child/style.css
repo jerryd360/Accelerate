@@ -58,6 +58,6 @@ div.case-study-images {
 
 div.case-study-images img {
     display:block;
-    margin-bottom:50px;
+    /*margin-bottom-bottom:50px;*/
     border: 1px solid #dddddd;
 }
