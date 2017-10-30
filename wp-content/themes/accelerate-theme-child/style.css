@@ -8,56 +8,41 @@
  Version:      1.0.0
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  accelerate-theme-child
-
-    Created on : Oct 16, 2017, 2:49:47 PM
-    Author     : JerryD
 */
-
 @import url("../accelerate-theme/style.css");
 
-#masthead {
-  background: none repeat scroll 0 0 #45ac9d;
-}
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-}
+  }
 
-.button {
+  #masthead {
     background: none repeat scroll 0 0 #45ac9d;
-}
+  }
 
-.blog-post {
-    width: 50%;
-    float: left;
-    margin-bottom: 2em;
+  .button {
+  	background: none repeat scroll 0 0 #45ac9d;
 }
 
 .blog-post h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
-    color: #a6a6a6;
-    text-transform: uppercase;
-    margin: 2em 0 .5em;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
 }
 
-/* Case Studies */
-
-article.case-study {
-    margin: 40px 0 0;
+.blog-post h3 {
+  font-size: 1.5em;
+}
+.blog-post {
+  width: 50%;
+  float: left;
+  margin-bottom: 2em;
 }
 
-aside.case-study-sidebar {
-    float: left;
-    width: 300px;
-    margin: 0 40px 0 0;
-}
-
-div.case-study-images {
-    float: left;
-    width: 606px;
-}
-
-div.case-study-images img {
-    display:block;
-    /*margin-bottom-bottom:50px;*/
-    border: 1px solid #dddddd;
+.read-more-link {
+  font-family: 'Montserrat';
+  font-weight:700;
+  color: #45ac9d;
+  text-transform: uppercase;
 }
